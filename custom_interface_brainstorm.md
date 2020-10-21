@@ -31,3 +31,20 @@ for example - [video example](https://videos.scanlines.xyz/videos/watch/d79c4667
 
 ![image](https://user-images.githubusercontent.com/12017938/96712409-63cc6700-139f-11eb-9304-1892b65d83f7.png)
 
+# first mockup
+
+heres a test modelling what this could look like (mainly to test all the related 3d models i imported) , inpired partly by the blackbox shape (although to be fair this is a pretty common/ obvious choice of layout - not much different from the orginal recur/incur layouts,,)
+
+![image](https://user-images.githubusercontent.com/12017938/96745425-6a220980-13c6-11eb-9aaa-54900a340f36.png)
+
+- 4x encoders with switch
+- 12x cherrymx buttons
+- 4x small press buttons
+- 4x cv inputs + 1x midi input
+- room for the circuitry underneath the pi-screen
+- rpi attached on bottom of pcb -> room to plug usb / power / vidoe out etc
+- dimensions are 120x120mm technically possilbe to rack it in 24hp (maybe racking the pcb itself so it protudes?) but less useful due to acces to pi controls
+
+![image](https://user-images.githubusercontent.com/12017938/96746122-267bcf80-13c7-11eb-83f9-3120ddba80a5.png)
+
+this is just a draft to get the ball/ conversation rolling - open to other sujections / ideas
