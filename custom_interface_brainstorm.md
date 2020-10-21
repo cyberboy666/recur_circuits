@@ -17,3 +17,17 @@ how best to have an 'all-in-one' recur unit.
 - should these control parts (switches/pots/cv/midi/encoder) connect directly to the gpio of the rpi (this is how the incur/recurboy circuits do it) or should they be merged through a microcontroller and send to pi through a consistant protocol ? (this is how the custom keypad idea will it)
 - problem with the direct connection is it tends to get a bit messy, uses many different gpio pins and having differnt input types in the recur code can be bit annoying/confusing...
 - if going for unified approach, this will add micro-controller to the board - need to decide on a form-factor for this. also to decide on the protocol. midi could be good since already implemented... main problem with this is only 7bit resolution on the cc ins. maybe could look into supporting midi2 ? or i know that some monome instruments are using an [i2c protocol](https://llllllll.co/t/a-users-guide-to-i2c/19219) -> could be worth looking into this (for examole teh 16n faderbank supports this) or define a custom (serial?) protocol? or use less signifacant bit/ approach for midi ?
+
+## how to upload an image to a github document
+
+brainstorms like this are best with lots of images. github allows image uploads in a roundabout way. heres how to do it:
+
+- create a new issue in another tab (or enter a new one)
+- paste the image you want to use into the text field of this issue
+- copy the link this generates and paste into the document
+- now use _preview change_ tab to see this image in the document
+
+for example - [video example](https://videos.scanlines.xyz/videos/watch/d79c4667-a746-4e0c-8e62-49e23e37e957):
+
+![image](https://user-images.githubusercontent.com/12017938/96712409-63cc6700-139f-11eb-9304-1892b65d83f7.png)
+
