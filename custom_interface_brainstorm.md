@@ -48,3 +48,11 @@ heres a test modelling what this could look like (mainly to test all the related
 ![image](https://user-images.githubusercontent.com/12017938/96746122-267bcf80-13c7-11eb-83f9-3120ddba80a5.png)
 
 this is just a draft to get the ball/ conversation rolling - open to other sujections / ideas
+
+# small update
+
+![image](https://user-images.githubusercontent.com/12017938/96934275-417f3a00-14c2-11eb-861a-773a17a28223.png)
+
+- decided to try interfacing directly to the pi gpio first (see how this is - only fall back on the 'microcontroller' option if needed...)
+- seeing if labels on the pcb would be readable / useful or if they need to be on a front panel, or if they need to be on the caps somehow ? (labels are made up things not real recur functions)
+
